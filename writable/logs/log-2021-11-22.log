@@ -1,0 +1,80 @@
+ERROR - 2021-11-22 09:01:12 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-22 09:01:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\Sigma7\system\Database\BaseConnection.php(767): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Sigma7\app\Models\StatementModel.php(14): CodeIgniter\Database\BaseConnection->transBegin()
+#2 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(73): App\Models\StatementModel->getBatch1()
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->acceptBiodata()
+#4 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 09:07:36 --> Too few arguments to function App\Controllers\Home::batch2Page(), 0 passed in C:\xampp\htdocs\Sigma7\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->batch2Page()
+#1 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-11-22 09:08:14 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-22 09:08:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\Sigma7\system\Database\BaseConnection.php(767): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Sigma7\app\Models\StatementModel.php(29): CodeIgniter\Database\BaseConnection->transBegin()
+#2 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(93): App\Models\StatementModel->getBatch2()
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->acceptBatch1()
+#4 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-22 09:08:22 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-22 09:08:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\Sigma7\system\Database\BaseConnection.php(767): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Sigma7\app\Models\StatementModel.php(29): CodeIgniter\Database\BaseConnection->transBegin()
+#2 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(93): App\Models\StatementModel->getBatch2()
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->acceptBatch1()
+#4 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-22 09:09:01 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-22 09:09:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\Sigma7\system\Database\BaseConnection.php(767): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Sigma7\app\Models\StatementModel.php(29): CodeIgniter\Database\BaseConnection->transBegin()
+#2 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(93): App\Models\StatementModel->getBatch2()
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->acceptBatch1()
+#4 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 09:09:19 --> Too few arguments to function App\Controllers\Home::batch2Page(), 0 passed in C:\xampp\htdocs\Sigma7\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->batch2Page()
+#1 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 09:10:31 --> Too few arguments to function App\Controllers\Home::diagnosisPage(), 0 passed in C:\xampp\htdocs\Sigma7\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->diagnosisPage()
+#1 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-22 09:10:39 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\Sigma7\app\Controllers\Home.php on line 54
+#0 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(54): view('diagnosis', '1')
+#1 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->diagnosisPage('1')
+#2 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-22 09:30:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-22 09:30:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\Sigma7\system\Database\BaseConnection.php(767): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Sigma7\app\Models\StatementModel.php(29): CodeIgniter\Database\BaseConnection->transBegin()
+#2 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(93): App\Models\StatementModel->getBatch2()
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->acceptBatch1()
+#4 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

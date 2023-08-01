@@ -1,0 +1,36 @@
+CRITICAL - 2021-11-23 08:10:06 --> Undefined variable $validation
+#0 C:\xampp\htdocs\Sigma7\app\Views\login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Sigma7\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Sigma7\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Sigma7\system\Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(74): view('login')
+#5 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 11:08:25 --> Undefined property: App\Controllers\Home::$userModel
+#0 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->registerUser()
+#2 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-23 11:11:04 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-23 11:11:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\Sigma7\system\Database\BaseConnection.php(767): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Sigma7\app\Models\UserModel.php(15): CodeIgniter\Database\BaseConnection->transBegin()
+#2 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(49): App\Models\UserModel->insertDataRegister('1@gmail.com', 'c4ca4238a0b9238...')
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->registerUser()
+#4 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 11:24:15 --> Undefined array key "role"
+#0 C:\xampp\htdocs\Sigma7\app\Controllers\Home.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(824): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Sigma7\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Sigma7\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
