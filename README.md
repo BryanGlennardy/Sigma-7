@@ -1,4 +1,4 @@
-# Sigma 7
+# Website Sigma 7
 
 Website yang berfungsi untuk memberikan saran olahraga yang tepat untuk pengguna.
 
