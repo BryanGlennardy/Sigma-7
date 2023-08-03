@@ -1,5 +1,5 @@
 # Portofolio pada CV Bryan Glennardy
-Sebelumnya maaf kepada HRD dari Harian Kompas, terdapat kesalahan pada bagian portofolio saya mengenai link dari portofolio saya yang dimana melakukan redirect ke link github ini.
+Sebelumnya maaf kepada HRD dari Harian Kompas, terdapat kesalahan pada CV bagian portofolio mengenai link dari portofolio saya yang dimana melakukan redirect ke link github ini.
 
 Berikut saya lampirkan link dari masing-masing portofolio saya.
 
