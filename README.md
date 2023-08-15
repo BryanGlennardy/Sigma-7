@@ -1,16 +1,10 @@
-# Portofolio pada CV Bryan Glennardy
-Sebelumnya maaf kepada HRD dari Harian Kompas, terdapat kesalahan pada CV bagian portofolio mengenai link dari portofolio saya yang dimana melakukan redirect ke link github ini.
+# Website Sigma 7
 
-Berikut saya lampirkan link dari masing-masing portofolio saya.
+Website yang berfungsi untuk memberikan saran olahraga yang tepat untuk pengguna.
 
-Web Programming Final Exam Project
-Link Github: https://github.com/BryanGlennardy/Pavillion
+Merupakan tugas akhir project kelompok dari mata kuliah Expert System.
 
-Expert System Final Exam Project
-Link Hosting: https://sigmaseven.000webhostapp.com/
+Website ini dibuat menggunakan HTML, CSS, JavaScript, PHP, framework Codeigniter 4, dan MySQL.
 
-Mobile Cross Platform Mid Exam Project
-Link Github: https://github.com/BryanGlennardy/Bosen-Jomblo-App
-
-Mobile Cross Platform Final Exam Project
-Link Hosting: https://waroenk.vercel.app/
+## Link website yang telah dihosting
+https://sigmaseven.000webhostapp.com/
